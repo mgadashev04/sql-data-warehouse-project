@@ -49,3 +49,11 @@ The project includes validation rules:
 - Primary key uniqueness
 - Null checks on key fields
 - Data consistency across layers
+
+## My Contribution
+
+- Designed and implemented a full ETL pipeline in SQL Server
+- Built a layered data warehouse architecture (Bronze, Silver, Gold)
+- Developed star schema data model
+- Created analytical queries for business insights
+- Implemented data quality checks and transformations

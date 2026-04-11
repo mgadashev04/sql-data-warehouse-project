@@ -1,0 +1,69 @@
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+*.env
+
+# Never expose credentials or configs
+*.config
+
+# =========================
+# SQL Server / Database files
+# =========================
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+
+# =========================
+# Logs & temporary files
+# =========================
+*.log
+*.tmp
+*.cache
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Data files (IMPORTANT for Data Engineering)
+# =========================
+
+# Ignore full raw datasets
+data/raw/*
+
+# Keep structure but ignore heavy files
+!data/raw/.gitkeep
+
+# Optional: ignore processed exports
+data/processed/*
+data/output/*
+
+# =========================
+# Exported reports / diagrams
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.drawio
+
+# =========================
+# Backup files
+# =========================
+*.backup
+*.old
